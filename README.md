@@ -22,7 +22,7 @@ or add this line to the require section of your `composer.json` file.
 Configuration
 -----------------
 
-Add in the view for normal CSS and JS
+Add in the view for normal CSS
 
 ```
 use cinghie\ionicons\IoniconsAsset;
@@ -30,7 +30,7 @@ use cinghie\ionicons\IoniconsAsset;
 IoniconsAsset::register($this);
 ```
 
-Add in the view for minify CSS and JS
+Add in the view for minify CSS
 
 ```
 use cinghie\ionicons\IoniconsMinifyAsset;
