@@ -14,7 +14,7 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "bower-asset/ionicons": "~4.2.4"
+        "bower-asset/ionicons": "*"
     },
     "autoload": {
         "psr-4": {
