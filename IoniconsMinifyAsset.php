@@ -7,12 +7,15 @@
  * @github https://github.com/cinghie/yii2-ionicons
  * @license GNU GENERAL PUBLIC LICENSE VERSION 3
  * @package yii2-ionicons
- * @version 1.0.0
+ * @version 1.0.1
  */
 
 namespace cinghie\ionicons;
 
 use yii\web\AssetBundle;
+use yii\web\YiiAsset;
+use yii\bootstrap\BootstrapAsset;
+use yii\bootstrap\BootstrapPluginAsset;
 
 /**
  * Class IoniconsAsset
@@ -38,9 +41,9 @@ class IoniconsMinifyAsset extends AssetBundle
      * @inherit
      */
     public $depends = [
-        'yii\web\YiiAsset',
-        'yii\bootstrap\BootstrapAsset',
-        'yii\bootstrap\BootstrapPluginAsset'
+	    YiiAsset::class,
+	    BootstrapAsset::class,
+	    BootstrapPluginAsset::class
     ];
 
 }
