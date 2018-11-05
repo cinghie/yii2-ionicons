@@ -14,7 +14,7 @@
     ],
     "require": {
         "yiisoft/yii2": "~2.0.15",
-        "bower-asset/ionicons": "~4.0.0",
+        "bower-asset/ionicons": "~4",
         "roave/security-advisories": "dev-master"
     },
     "autoload": {
