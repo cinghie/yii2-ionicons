@@ -1,6 +1,5 @@
 # Yii2 Ionicons
-Asset Bundle to include Ionicons on your Yii 2 project:  
-https://ionicons.com/
+Asset Bundle to include Ionicons on your Yii 2 project: https://ionicons.com/
 
 Installation
 -----------------
