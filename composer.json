@@ -13,7 +13,7 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "^2.0.14",
+        "yiisoft/yii2": "^2.0.15",
         "bower-asset/ionicons": "^4.0.0"
     },
     "autoload": {

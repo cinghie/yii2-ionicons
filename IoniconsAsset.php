@@ -19,12 +19,9 @@ use yii\bootstrap\BootstrapPluginAsset;
 
 /**
  * Class IoniconsAsset
- *
- * @package cinghie\ionicons
  */
 class IoniconsAsset extends AssetBundle
 {
-
 	/**
 	 * @inherit
 	 */
@@ -45,5 +42,4 @@ class IoniconsAsset extends AssetBundle
 		BootstrapAsset::class,
 		BootstrapPluginAsset::class
 	];
-
 }
