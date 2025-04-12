@@ -7,7 +7,7 @@
  * @github https://github.com/cinghie/yii2-ionicons
  * @license GNU GENERAL PUBLIC LICENSE VERSION 3
  * @package yii2-ionicons
- * @version 1.0.4
+ * @version 1.0.5
  */
 
 namespace cinghie\ionicons;
