@@ -14,8 +14,6 @@ namespace cinghie\ionicons;
 
 use yii\web\AssetBundle;
 use yii\web\YiiAsset;
-use yii\bootstrap\BootstrapAsset;
-use yii\bootstrap\BootstrapPluginAsset;
 
 /**
  * Class IoniconsMinifyAsset
@@ -39,7 +37,5 @@ class IoniconsMinifyAsset extends AssetBundle
      */
     public $depends = [
 	    YiiAsset::class,
-	    BootstrapAsset::class,
-	    BootstrapPluginAsset::class
     ];
 }
